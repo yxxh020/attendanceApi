@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c21f925-7009-4740-9559-2b60711743fa" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LfnWDMltA2ATODVbxJBywekFYl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dynamic.classpath" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../attendanceWeb" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.boardApplication (2)">
+    <configuration name="boardApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.attendance.api.boardApplication" />
+      <module name="attendanceApi.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.attendance.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests in 'attendanceApi'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests *" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="attendanceBoardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="attendanceApi.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.attendance.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.attendance.api.attendanceBoardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="boardApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="attendanceApi_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.attendance.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.attendance.api.boardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="boardApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="com.attendance.attendanceApi.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.attendance.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.attendance.api.boardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="boardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="attendanceApi.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.attendance.api.boardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.boardApplication (2)" />
+        <item itemvalue="Spring Boot.boardApplication (1)" />
+        <item itemvalue="Application.boardApplication" />
+        <item itemvalue="Gradle.Tests in 'attendanceApi'" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c21f925-7009-4740-9559-2b60711743fa" name="Default Changelist" comment="" />
+      <created>1676271033431</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676271033431</updated>
+      <workItem from="1676271036586" duration="6518000" />
+      <workItem from="1676278101161" duration="23000" />
+      <workItem from="1676332678593" duration="938000" />
+      <workItem from="1676356287894" duration="5933000" />
+      <workItem from="1676363088359" duration="431000" />
+      <workItem from="1676418900014" duration="656000" />
+      <workItem from="1676420906700" duration="8346000" />
+      <workItem from="1676442450674" duration="7408000" />
+      <workItem from="1676505608347" duration="4446000" />
+      <workItem from="1676591985249" duration="102000" />
+      <workItem from="1676592100441" duration="11194000" />
+      <workItem from="1676611395980" duration="10691000" />
+      <workItem from="1676850363410" duration="22055000" />
+      <workItem from="1676938697368" duration="2296000" />
+      <workItem from="1676944123392" duration="14999000" />
+      <workItem from="1676973405759" duration="76000" />
+      <workItem from="1677110016445" duration="17122000" />
+      <workItem from="1677206470107" duration="13342000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="827" y="302" key="#Project_Structure" timestamp="1677117451299">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="827" y="302" key="#Project_Structure/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1677117451299" />
+    <state x="617" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1676939392321">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="617" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1676939392321" />
+    <state x="830" y="266" key="#com.intellij.ide.util.MemberChooser" timestamp="1676958402415">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="830" y="266" key="#com.intellij.ide.util.MemberChooser/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1676958402415" />
+    <state x="363" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1676955096422">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="363" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1676955096422" />
+    <state width="558" height="466" key="DebuggerActiveHint" timestamp="1676876839860">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="558" height="466" key="DebuggerActiveHint/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1676876839860" />
+    <state x="732" y="227" key="FileChooserDialogImpl" timestamp="1677209878260">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1676611811871" />
+    <state x="732" y="227" key="FileChooserDialogImpl/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1677209878260" />
+    <state width="1478" height="361" key="GridCell.Tab.0.bottom" timestamp="1677230603594">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1493" height="375" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1676611354201" />
+    <state width="1478" height="361" key="GridCell.Tab.0.bottom/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1677230603594" />
+    <state width="1493" height="109" key="GridCell.Tab.0.bottom/2560.0.1536.824/0.0.2048.1112@2560.0.1536.824" timestamp="1676624855559" />
+    <state width="1478" height="361" key="GridCell.Tab.0.center" timestamp="1677230603594">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1493" height="375" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1676611354201" />
+    <state width="1478" height="361" key="GridCell.Tab.0.center/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1677230603594" />
+    <state width="1493" height="109" key="GridCell.Tab.0.center/2560.0.1536.824/0.0.2048.1112@2560.0.1536.824" timestamp="1676624855559" />
+    <state width="1478" height="361" key="GridCell.Tab.0.left" timestamp="1677230603594">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1493" height="375" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1676611354201" />
+    <state width="1478" height="361" key="GridCell.Tab.0.left/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1677230603594" />
+    <state width="1493" height="109" key="GridCell.Tab.0.left/2560.0.1536.824/0.0.2048.1112@2560.0.1536.824" timestamp="1676624855559" />
+    <state width="1478" height="361" key="GridCell.Tab.0.right" timestamp="1677230603594">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1493" height="375" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1676611354201" />
+    <state width="1478" height="361" key="GridCell.Tab.0.right/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1677230603594" />
+    <state width="1493" height="109" key="GridCell.Tab.0.right/2560.0.1536.824/0.0.2048.1112@2560.0.1536.824" timestamp="1676624855559" />
+    <state width="1478" height="361" key="GridCell.Tab.1.bottom" timestamp="1677230603595">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1493" height="375" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1676611354202" />
+    <state width="1478" height="361" key="GridCell.Tab.1.bottom/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1677230603595" />
+    <state width="1493" height="109" key="GridCell.Tab.1.bottom/2560.0.1536.824/0.0.2048.1112@2560.0.1536.824" timestamp="1676624855560" />
+    <state width="1478" height="361" key="GridCell.Tab.1.center" timestamp="1677230603594">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1493" height="375" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1676611354202" />
+    <state width="1478" height="361" key="GridCell.Tab.1.center/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1677230603594" />
+    <state width="1493" height="109" key="GridCell.Tab.1.center/2560.0.1536.824/0.0.2048.1112@2560.0.1536.824" timestamp="1676624855560" />
+    <state width="1478" height="361" key="GridCell.Tab.1.left" timestamp="1677230603594">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1493" height="375" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1676611354202" />
+    <state width="1478" height="361" key="GridCell.Tab.1.left/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1677230603594" />
+    <state width="1493" height="109" key="GridCell.Tab.1.left/2560.0.1536.824/0.0.2048.1112@2560.0.1536.824" timestamp="1676624855559" />
+    <state width="1478" height="361" key="GridCell.Tab.1.right" timestamp="1677230603594">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1493" height="375" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1676611354202" />
+    <state width="1478" height="361" key="GridCell.Tab.1.right/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1677230603594" />
+    <state width="1493" height="109" key="GridCell.Tab.1.right/2560.0.1536.824/0.0.2048.1112@2560.0.1536.824" timestamp="1676624855560" />
+    <state width="1478" height="361" key="GridCell.Tab.2.bottom" timestamp="1677230603595">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1493" height="375" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1676611354202" />
+    <state width="1478" height="361" key="GridCell.Tab.2.bottom/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1677230603595" />
+    <state width="1478" height="361" key="GridCell.Tab.2.center" timestamp="1677230603595">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1493" height="375" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1676611354202" />
+    <state width="1478" height="361" key="GridCell.Tab.2.center/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1677230603595" />
+    <state width="1478" height="361" key="GridCell.Tab.2.left" timestamp="1677230603595">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1493" height="375" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1676611354202" />
+    <state width="1478" height="361" key="GridCell.Tab.2.left/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1677230603595" />
+    <state width="1478" height="361" key="GridCell.Tab.2.right" timestamp="1677230603595">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1493" height="375" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1676611354202" />
+    <state width="1478" height="361" key="GridCell.Tab.2.right/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1677230603595" />
+    <state x="584" y="293" width="880" height="604" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1676963549283">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="584" y="293" width="880" height="604" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1676963549283" />
+    <state x="796" y="398" width="618" height="538" key="find.popup" timestamp="1677222916561">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="796" y="398" width="618" height="538" key="find.popup/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1677222916561" />
+    <state x="3097" y="213" width="618" height="538" key="find.popup/2560.0.1536.824/0.0.2048.1112@2560.0.1536.824" timestamp="1676940286054" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1676939346946">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1676939346946" />
+  </component>
+</project>

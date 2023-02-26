@@ -1,0 +1,40 @@
+spring:
+  datasource:
+    driverClassName: org.mariadb.jdbc.Driver
+    jdbc-url: jdbc:mysql://localhost:3306/boarddb?autoReconnect=true&useSSL=false&useUnicode=yes&characterEncoding=utf-8&serverTimezone=UTC&zeroDateTimeBehavior=convertToNull
+    username: root
+    password: 123
+    hikari:
+      pool-name: hikari-cp
+      connection-timeout: 60000
+      maximum-pool-size: 10
+      minimum-idle: 2
+      max-lifetime: 30000
+  devtools:
+    livereload:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        #        show_sql: true
+        format_sql: true
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+
+server:
+  port: 8087
+  compression:
+    enabled: true
+    min-response-size: 2048
+  tomcat:
+    uri-encoding: UTF-8
+  error:
+    whitelabel:
+      enabled: false
+
+mybatis:
+  mapper-locations: classpath:/mybatis/mapper/*.xml
+  config-location: classpath:/mybatis/mybatis-config.xml

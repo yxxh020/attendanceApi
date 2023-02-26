@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.attendance.api.mapper.BoardMapper">
+    <sql id="searchCondition">
+        <if test="keyword != null">
+            WHERE name LIKE CONCAT('%', #{keyword}, '%')
+        </if>
+    </sql>
+
+    <select id="getBoardList" resultType="Board">
+        SELECT *
+        FROM yh_board
+        <include refid="searchCondition"/>
+        ORDER BY name ASC
+        LIMIT #{page_limit} OFFSET #{page_offset}
+    </select>
+
+    <select id="getMyBoardList" resultType="Board">
+        SELECT * FROM yh_board where uid = #{id};
+    </select>
+
+    <insert id="insertPost" parameterType="Board">
+        INSERT INTO yh_board(name,dept, uid) values (#{name}, #{dept}, #{id})
+    </insert>
+
+    <update id="updatePost" parameterType="Board">
+        UPDATE yh_board
+        SET name = #{name},
+            dept = #{dept}
+    </update>
+
+    <select id="boardCount" resultType="int">
+        SELECT COUNT (*)
+        FROM yh_board
+        <include refid="searchCondition"/>
+    </select>
+
+<!--comment 기능-->
+    <insert id="saveComment" parameterType="Comment">
+        INSERT INTO yh_comment(num, comment, ref_num, uid) values(#{num}, #{comment}, #{ref_num}, #{uid})
+    </insert>
+    <update id="updateComment" parameterType="Comment">
+        UPDATE yh_comment
+        SET comment = #{comment},
+    </update>
+    <select id="getComment" resultType="Comment">
+        SELECT * FROM yh_board where num =#{num}
+    </select>
+</mapper>

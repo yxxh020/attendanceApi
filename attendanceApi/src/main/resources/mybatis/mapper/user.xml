@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.attendance.api.mapper.UserMapper">
+    <select id="getList" resultType="User">
+        SELECT * FROM yh_user;
+    </select>
+<!--    <select id="getUser" resultType="com.attendance.api.model.UserVo">-->
+<!--        SELECT * FROM yh_user WHERE id =#{id};-->
+<!--    </select>-->
+    <select id="findById" resultType="User">
+        SELECT * FROM yh_user WHERE id=#{id};
+    </select>
+    <insert id="insertUser" parameterType="User">
+        INSERT INTO yh_user(name,id,pwd,dept) values (#{name}, #{id}, #{pwd},#{dept})
+    </insert>
+</mapper>

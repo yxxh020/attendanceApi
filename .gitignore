@@ -1,0 +1,4 @@
+# Project exclude paths
+/attendanceApi/.gradle/
+/attendanceApi/build/
+/attendanceApi/build/classes/java/main/
